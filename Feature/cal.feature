@@ -15,7 +15,12 @@ Feature: Calculator
     | 99 | -99 | 0 |
     | -1 | -10 | -11 |
     
-  Scenario: Multiply two numbers num1 & num2
+  Scenario: Multiply two numbers num1 & num2 using Excel
    Given I have a calculator
    When I multiply num1 and num2
    Then the result should be multiplication
+   
+   Scenario: Multiply two numbers num1 & num2 using json
+   Given I have a calculator
+   When I multiply num1 and num2 using json
+   Then the result should be multiplication given in json

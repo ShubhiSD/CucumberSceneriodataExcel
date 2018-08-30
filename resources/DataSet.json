@@ -1,0 +1,25 @@
+[
+ 
+   {
+    "num1":"43",
+    "num2":"10",
+  	"multiplication":"430"
+  },
+   {
+    "num1":"111",
+    "num2":"20",
+  	"multiplication":"2220"
+  },
+   {
+    "num1":"50",
+    "num2":"22",
+  	"multiplication":"1100"
+  },
+   {
+    "num1":"100",
+    "num2":"-1",
+  	"multiplication":"-100"
+  }
+  
+    
+]
